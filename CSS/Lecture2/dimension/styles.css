@@ -1,0 +1,10 @@
+.divc{
+    border: 1px solid black;
+    max-height: 100px;
+    overflow: scroll;
+}
+.mydi{
+    border: 1px solid black;
+    margin: 10px;
+    min-height: 100px;
+}
