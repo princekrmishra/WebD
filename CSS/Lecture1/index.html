@@ -3,46 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <!-- class selector -->
+    <title>CSS Basics</title>
+    <link rel="stylesheet" href="styles.css">
     <style>
-        .small{
-            font-size: small;
+        #internal{
+            text-shadow: 2px 2px 2px red ;
         }
-        .large{
-            font-size: larger;
-        } -->
-
-         <!-- #id_selector{
-            background-color:aliceblue;
-            color: red;
-            border: 2px solid black
-         } -->
-
-        #b:hover{
-            color: blue;
-         }
-
     </style>
 </head>
 <body>
-    <!-- class selector -->
-    <!-- <h1 class="small">This is h1 tag</h1>
-    <h2 class="small">This is h2 tag</h2>
-    <h3 class="small">This is h3 tag</h3>
-    <h4 class="large">This is h4 tag</h4>
-    <h5 class="large">This is h5 tag</h5>
-    <h6 class="large">This is h6 tag</h6> -->
-
-    <!-- <h1 id="id_selector">
-        <p>
-            This is h1 tag of id selector
-        </p>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores, possimus impedit illum dolor neque quibusdam perferendis aliquid blanditiis delectus. Magni sint nostrum expedita aperiam quibusdam laborum neque voluptatem iste molestias!</p>
-    </h1> -->
-
-    <!-- pseudo class selector -->
-    <button id="b">Submit</button>
+    <p style="color: red;">This is 1st paragraph</p>
+    <p style="color: red;">This is second paragraph</p>
+    <h1 style="background-color: aqua;">
+        This is heading 1 </h1>
+    <h2 style="background-color: aqua;">  This is second heading
+    </h2>
     
+    <div class="div1">
+        <p id="id1">Cell1 Cell2</p>
+    </div>
+
+    <p class="p1">Paragraph 1</p>
+    <p class="p2">Paragraph 2</p>
+    <p class="p3">Paragraph 3</p>
+
+    <h1 class="h1">Heading 1</h1>
+    <h2 class="h2">Heading 2</h2>
+    <h3 class="h3">Heading 3</h3>
+
+    <div class="heading">
+        <h3 class="h4">Heading 4</h3>
+        <h3 class="h5">Heading 5</h3>
+        <h3 class="h6">Heading 6</h3>
+    </div>
+    
+    <button class="button">Submit</button>
+
+    <p class="lorem">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Cumque inventore dolores iure mollitia. Illo, facilis quam! Minus eos perferendis consequuntur eveniet laborum quisquam veritatis aliquam nobis aliquid ab, illo dolorum!</p>
+
+    <h3 style= "font-style: italic; background-color:aqua" >Heading 3 INLINE CSS</h3>
+
+    <p id="internal"> This is use of Internal CSS, Internal CSS uses in Head tag in style tag</p>
+
+    <div class="box">
+        <h1 class="box-heading">Heading of Box</h1>
+
+        <p class="p-div">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Beatae quae, corrupti molestias incidunt nam dicta. Laudantium doloribus aperiam corrupti delectus fugit, ipsa veniam unde voluptatibus voluptatum quisquam id aut maxime!</p>
+    </div>
+
+    <p style="color: green;"> I'm used to specify CSS</p>
+
+    
+    <div id="divi1">Box 1</div>
+    <div id="divi2">Box 2</div>
+    <div id="divi3">Box 3</div>
+
+    <div class="parentdiv">parentdiv
+        <div class="childdiv">Inner Div</div>
+    </div>
 </body>
 </html>
