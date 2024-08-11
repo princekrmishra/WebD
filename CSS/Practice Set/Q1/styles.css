@@ -1,0 +1,36 @@
+*{
+   
+    background-color: wheat;
+    font-family: Georgia;
+}
+
+.poem{
+    color: brown;
+}
+
+.poem, .heading{
+    text-align: center;
+}
+
+.poem{
+    color: red;
+    
+}
+
+#poet{
+    color: black;
+}
+
+.link{
+    color: green;
+    text-decoration: none;
+}
+
+.button{
+    background-color: white;
+    color: blueviolet;
+}
+
+h1{
+    text-decoration: underline;
+}
